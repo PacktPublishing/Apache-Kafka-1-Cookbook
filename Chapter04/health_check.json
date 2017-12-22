@@ -1,0 +1,10 @@
+{ 
+   "event": "HEALTH_CHECK",  
+   "factory": "Hierve el agua, OAX", 
+   "serialNumber": " C3PO-R2D2", 
+   "type": "combined cycle", 
+   "status": "RUNNING", 
+   "lastStartedAt": 1511115511, 
+   "temperature": 34.56, 
+   "ipAddress": "192.168.210.11" 
+} 

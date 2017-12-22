@@ -1,0 +1,25 @@
+{ "name": "customer_sees_btcprice", 
+  "namespace": "doubloon.avro", 
+  "type": "record", 
+  "fields": [ 
+    { "name": "event", "type": "string" }, 
+    { "name": "customer",  
+      "type": { 
+        "name": "id", "type": "long", 
+        "name": "name", "type": "string", 
+        "name": "ipAddress", "type": "string" 
+    } 
+    }, 
+    { "name": "currency",  
+      "type": { 
+        "name": "name", "type": "string", 
+        "name": "price", "type": { 
+        "type": "enum", "namespace": "doubloon.avro",  
+        "name": "priceEnum", "symbols": ["USD", "EUR"]} 
+      } 
+    }, 
+    { "name": "timestamp", "type": "long",  
+      "logicalType": "timestamp-millis"  
+    } 
+  ] 
+} 

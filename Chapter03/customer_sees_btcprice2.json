@@ -1,0 +1,14 @@
+{  "event": "CUSTOMER_SEES_BTCPRICE", 
+    "customer": {  
+      "id": "18313440", 
+      "name": "Julian A.", 
+      "ipAddress": "185.86.151.11" 
+    }, 
+    "currency": { 
+      "name": "bitcoin", 
+      "price": "USD" 
+    }, 
+    "timestamp": "2017-07-04T15:00:35Z" 
+  } 
+
+  
