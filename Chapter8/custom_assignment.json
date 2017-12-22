@@ -1,8 +1,0 @@
-{"version":1,
-"partitions":[ {"topic":"topic_1","partition":0,"replicas":[7,8]},
-                   {"topic":"topic_1","partition":1,"replicas":[7,8]},
-                   {"topic":"topic_1","partition":2,"replicas":[7,8]},
-                   {"topic":"topic_2","partition":0,"replicas":[7,8]},
-                   {"topic":"topic_2","partition":1,"replicas":[7,8]}]
-                   {"topic":"topic_2","partition":2,"replicas":[7,8]},
-    }
